@@ -1,2 +1,2 @@
-# Alphageek
-This is a business website
+# Hyphn Resources
+Media Company
