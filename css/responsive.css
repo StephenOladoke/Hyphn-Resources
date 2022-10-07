@@ -226,13 +226,14 @@
     }
     @media all and (min-width: 299px) and (max-width: 479px) {
         #service .row .media{
-            text-align:center;
-            padding:2% 0%;
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 2rem;
-            width: calc(50% - 10px);
-            margin-bottom: 20px;
+            /* text-align:center; */
+            /* padding:2% 0%; */
+            /* display: grid; */
+            /* grid-template-columns: repeat(2, 1fr); */
+            /* gap: 2rem; */
+        
+            width: calc(100% - 10px);
+            margin-bottom: 50px;
         }
     #slider-video {
         position: relative;
