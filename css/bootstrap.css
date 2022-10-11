@@ -1124,7 +1124,7 @@ img {
   display: block;
   max-width: 120%;
   height: auto;
-  /* position: absolute; */
+  position: absolute;
   /* margin-bottom: 1000px; */
 }
 .img-rounded {
