@@ -233,18 +233,18 @@ a.navbar-brand{
     font-weight: 500;
     color:#fff;
 }
-/* a.navbar-brand img {
-	margin-left: 29px;
-	margin-top: 4%;
-	width: 9%;
-	height: auto;
-}  */
 a.navbar-brand img {
+	margin-left: 29px;
+	margin-bottom: 100%;
+	width: 140px;
+	height: auto;
+} 
+/* a.navbar-brand img {
 	position:relative;
 	top: 0.1%;
 	width: 133%;
 	height: auto;
-} 
+}  */
 #menu {
 	position:absolute;
 }
