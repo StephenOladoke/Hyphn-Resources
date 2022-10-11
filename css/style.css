@@ -503,12 +503,18 @@ ul.nav li.active a:before {
 }
 .progress {
 	height: 20px;
-	background-color: #d7d7d7;
+	/* background-color: #d7d7d7; */
 	border-radius: 0;
 	box-shadow: none;
 	-webkit-box-shadow: none;
 	margin-bottom: 25px;
 }
+/* green: rgb(0,132,126)
+btl: 52,210,211
+DM: 74,61,130
+pink 218,49,130
+CC255,168,9
+AD: 0,162,211 */
 .progress-bar {
 	box-shadow: none;
 	-webkit-box-shadow: none;
@@ -516,7 +522,57 @@ ul.nav li.active a:before {
 	padding-right: 12px;
 	font-size: 12px;
 	font-weight: 600;
-	background:	#36454F;
+	background:	rgb(255,168,9);
+}
+.progress-bar2 {
+	box-shadow: none;
+	-webkit-box-shadow: none;
+	text-align: right;
+	padding-right: 12px;
+	font-size: 12px;
+	font-weight: 600;
+	/* background:	#36454F; */
+	background: rgb(74,61,130);
+}
+.progress-bar3 {
+	box-shadow: none;
+	-webkit-box-shadow: none;
+	text-align: right;
+	padding-right: 12px;
+	font-size: 12px;
+	font-weight: 600;
+	/* background:	#36454F; */
+	background: rgb(0,132,126);
+}
+.progress-bar4 {
+	box-shadow: none;
+	-webkit-box-shadow: none;
+	text-align: right;
+	padding-right: 12px;
+	font-size: 12px;
+	font-weight: 600;
+	/* background:	#36454F; */
+	background: rgb(218,49,130);
+}
+.progress-bar5 {
+	box-shadow: none;
+	-webkit-box-shadow: none;
+	text-align: right;
+	padding-right: 12px;
+	font-size: 12px;
+	font-weight: 600;
+	/* background:	#36454F; */
+	background: rgb(52,210,211);
+}
+.progress-bar6 {
+	box-shadow: none;
+	-webkit-box-shadow: none;
+	text-align: right;
+	padding-right: 12px;
+	font-size: 12px;
+	font-weight: 600;
+	/* background:	#36454F; */
+	background: rgb( 0,162,211);
 }
 .progress .progress-bar.six-sec-ease-in-out {
 	-webkit-transition: width 2s ease-in-out;
