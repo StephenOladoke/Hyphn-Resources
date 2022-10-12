@@ -245,7 +245,9 @@
         top: 20%;
     }
     }
-    @media all and (min-width: 299px) and (max-width: 479px) {
+    /* @media all and (min-width: 299px) and (max-width: 479px) { */
+@media all and (min-width: 299px) and (max-width: 2360px) {
+    
         #service .row .media{
             /* text-align:center; */
             /* padding:2% 0%; */
