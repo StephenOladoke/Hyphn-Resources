@@ -4249,7 +4249,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-collapse.in {
   overflow-y: auto;
 }
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
   .navbar-collapse {
     width: auto;
     border-top: 0;
@@ -4275,7 +4275,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-fixed-top .navbar-collapse,
 .navbar-fixed-bottom .navbar-collapse {
   max-height: 340px;
-}
+} */
 @media (max-device-width: 480px) and (orientation: landscape) {
   .navbar-fixed-top .navbar-collapse,
   .navbar-fixed-bottom .navbar-collapse {
