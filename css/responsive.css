@@ -285,11 +285,15 @@
         font-size: 15px;
         line-height: 25px;
         }
+        .ab-sec {
+            text-align:justify;
+            bottom: 120px;
+        }
     .ab-sec-img img{
-        width: 137%;
+        width: 110%;
         height: auto;
-        right: -55px;
-        bottom: -110px;
+        right: -6px;
+        bottom: -204px;
         /* position: absolute; */
     }
     a.btn-down {
