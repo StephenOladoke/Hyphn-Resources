@@ -1,4 +1,7 @@
 @media all and (min-width: 993px) and (max-width: 1200px) {
+    .ab-sec-img img{
+
+    }
     #service .row .media{
         /* text-align:center;
         padding:2% 0%;
@@ -28,14 +31,14 @@
     position:absolute;
     top:22px;
     } */
-    .ab-sec-img img{
+    /* .ab-sec-img img{
         width: 137%;
         height: auto;
         right: -137px;
         bottom: -430px;
         position: absolute;
         
-    }
+    } */
     .team-desc ul.team-social-icon li {
         padding-right: 10px;
 
@@ -128,16 +131,15 @@
     }
     @media all and (min-width: 360px) and (max-width: 768px) {
         #service .row .media{
-            /* text-align:center;
+            text-align:center;
             padding:2% 0%;
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
+            /* display: grid; */
+            /* grid-template-columns: repeat(2, 1fr); */
             gap: 2rem;
-            width: calc(50% - 10px);
-            margin-bottom: 20px; */
-            width: calc(100% - 10px);
-            margin-bottom: 40px;
+           
         }
+         /*  width: calc(100% - 10px);
+            margin-bottom: 40px;  */ 
         a.navbar-brand img{
             min-width: 142px;
             margin-bottom: 10%;
@@ -255,16 +257,31 @@
     }
     
 @media all and (min-width: 299px) and (max-width: 479px) {
+        .ab-sec {
+            text-align:justify;
+            /* bottom: 120px; */
+        }
+        .ab-sec-img img{
+            width: 110%;
+            height: auto;
+            right: -6px;
+            top: 20%;
+            bottom: -304px;
+            position: absolute;
+        } 
     
         #service .row .media{
-            /* text-align:center; */
-            /* padding:2% 0%; */
-            /* display: grid; */
+            text-align:center;
+            padding:2% 0%;
+            display: inline;    
             /* grid-template-columns: repeat(2, 1fr); */
-            /* gap: 2rem; */
-        
-            width: calc(100% - 10px);
-            margin-bottom: 40px;
+            gap: 2rem;
+    
+            /* width: calc(100% - 10px);
+            margin-bottom: 40px; */
+        }
+        #service .container{
+            margin-top: 70%;
         }
         a.navbar-brand img{
             min-width: 142px;
@@ -285,17 +302,7 @@
         font-size: 15px;
         line-height: 25px;
         }
-        .ab-sec {
-            text-align:justify;
-            bottom: 120px;
-        }
-    .ab-sec-img img{
-        width: 110%;
-        height: auto;
-        right: -6px;
-        bottom: -204px;
-        /* position: absolute; */
-    }
+        
     a.btn-down {
         top: 65px;
         }
