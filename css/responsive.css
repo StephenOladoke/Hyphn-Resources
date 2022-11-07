@@ -270,7 +270,16 @@
             position: absolute;
         } 
     
-        
+        #service .row .media{
+/*             text-align:center;
+            padding:2% 0%;
+            display: inline;     */
+            /* grid-template-columns: repeat(2, 1fr); */
+/*             gap: 2rem; */
+    
+            /* width: calc(100% - 10px);
+            margin-bottom: 40px; */
+        }
         #service .container{
             margin-top: 70%;
         }
